@@ -12,14 +12,14 @@ body {
 
 @font-face {
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Regular.woff);
+  src: url(/fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Bold.woff);
+  src: url(/fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
 }
@@ -226,7 +226,7 @@ body {
 .trends_tags_plus_title {
   border: 5px solid rgba(181, 159, 91, 0.5);
   margin: 0 18px 16px 18px;
-  padding: 34px 32px;
+  padding: 10% 5%;
 }
 
 .trends_title_link {
@@ -267,7 +267,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #6e6d6d;
+  background-color: #ffffff;
 }
 
 .article-image-container-1 {
@@ -423,18 +423,13 @@ body {
   margin-bottom: 55px;
 }
 
-.search-label {
-  width: 100%;
-}
-
 .search-field {
-  width: 100%;
-  height: 50px;
+  flex-grow: 1;
   background-color: #f4f7f6;
   border: none;
   font-weight: 400;
   font-size: 13px;
-  padding: 16px;
+  padding: 14px;
 }
 
 .search-field:focus {
@@ -451,6 +446,8 @@ body {
   background-position: center;
   background-size: 18px;
   background-color: #b59f5b;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .search-button:hover {

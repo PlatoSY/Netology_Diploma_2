@@ -192,7 +192,7 @@ body {
   align-items: flex-end;
   width: calc(25% - 3px);
   height: 320px;
-  background-image: url(/img/trend1.jpg);
+  background-image: url(../img/trend1.jpg);
   background-color: darkgray;
   background-size: cover;
   background-position: center;
@@ -202,13 +202,13 @@ body {
 }
 
 .trends:nth-child(2) {
-  background-image: url(/img/trend2.jpg);
+  background-image: url(../img/trend2.jpg);
 }
 .trends:nth-child(3) {
-  background-image: url(/img/trend3.jpg);
+  background-image: url(../img/trend3.jpg);
 }
 .trends:nth-child(4) {
-  background-image: url(/img/trend4.jpg);
+  background-image: url(../img/trend4.jpg);
 }
 
 .trends:after {
@@ -271,19 +271,19 @@ body {
 }
 
 .article-image-container-1 {
-  background-image: url(/img/last-post1.jpg);
+  background-image: url(../img/last-post1.jpg);
 }
 .article-image-container-2 {
-  background-image: url(/img/last-post2.jpg);
+  background-image: url(../img/last-post2.jpg);
 }
 .article-image-container-3 {
-  background-image: url(/img/last-post3.jpg);
+  background-image: url(../img/last-post3.jpg);
 }
 .article-image-container-4 {
-  background-image: url(/img/last-post4.jpg);
+  background-image: url(../img/last-post4.jpg);
 }
 .article-image-container-5 {
-  background-image: url(/img/last-post5.jpg);
+  background-image: url(../img/last-post5.jpg);
 }
 
 .article-content {
@@ -446,7 +446,7 @@ body {
   width: 50px;
   height: 50px;
   border: none;
-  background-image: url(/svg/search.svg);
+  background-image: url(../svg/search.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 18px;
@@ -598,13 +598,13 @@ body {
 }
 
 .shop_img_container_1 {
-  background-image: url(/img/shop-item-desk1.jpg);
+  background-image: url(../img/shop-item-desk1.jpg);
 }
 .shop_img_container_2 {
-  background-image: url(/img/shop-item-desk2.jpg);
+  background-image: url(../img/shop-item-desk2.jpg);
 }
 .shop_img_container_3 {
-  background-image: url(/img/shop-item-desk3.jpg);
+  background-image: url(../img/shop-item-desk3.jpg);
 }
 
 .shop_content {
@@ -708,35 +708,35 @@ body {
 .twitter-link {
   width: 25px;
   height: 21px;
-  background-image: url(/svg/004-twitter.svg);
+  background-image: url(../svg/004-twitter.svg);
   margin-right: 25px;
 }
 
 .pinterest-link {
   width: 16px;
   height: 20px;
-  background-image: url(/svg/001-pinterest.svg);
+  background-image: url(../svg/001-pinterest.svg);
   margin-right: 25px;
 }
 
 .facebook-link {
   width: 12px;
   height: 20px;
-  background-image: url(/svg/002-facebook-logo.svg);
+  background-image: url(../svg/002-facebook-logo.svg);
   margin-right: 25px;
 }
 
 .instagram-link {
   width: 20px;
   height: 20px;
-  background-image: url(/svg/005-instagram.svg);
+  background-image: url(../svg/005-instagram.svg);
   margin-right: 25px;
 }
 
 .tumblr-link {
   width: 13px;
   height: 20px;
-  background-image: url(/svg/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
 }
 
 /* COPYRIGHT */
@@ -788,7 +788,7 @@ body {
   content: "";
   width: 20px;
   height: 20px;
-  background-image: url(/svg/form-x.svg);
+  background-image: url(../svg/form-x.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-color: rgba(0, 0, 0, 0);
@@ -813,7 +813,7 @@ body {
   color: #6c6d6c;
   border: none;
   background-color: #f4f7f6;
-  background-image: url(/svg/form-arrows.svg);
+  background-image: url(../svg/form-arrows.svg);
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 10px 18px;
@@ -847,7 +847,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(/svg/form-empty-circle.svg);
+  background-image: url(../svg/form-empty-circle.svg);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -856,7 +856,7 @@ body {
 }
 
 .popup-form-radioname:checked ~ .radio-var:before {
-  background-image: url(/svg/form-circle.svg);
+  background-image: url(../svg/form-circle.svg);
 }
 
 .popup-form-radioname {
@@ -921,7 +921,7 @@ body {
   /*  tablet HEADER  */
 
   .header {
-    background-image: url(/img/banner-bg-tablet.jpg);
+    background-image: url(../img/banner-bg-tablet.jpg);
   }
 
   .logo-link {
@@ -1023,13 +1023,13 @@ body {
   }
 
   .shop_img_container_1 {
-    background-image: url(/img/shop-item-tablet1.jpg);
+    background-image: url(../img/shop-item-tablet1.jpg);
   }
   .shop_img_container_2 {
-    background-image: url(/img/shop-item-tablet2.jpg);
+    background-image: url(../img/shop-item-tablet2.jpg);
   }
   .shop_img_container_3 {
-    background-image: url(/img/shop-item-tablet3.jpg);
+    background-image: url(../img/shop-item-tablet3.jpg);
   }
 
   .shop_container {
@@ -1063,7 +1063,7 @@ body {
 
 @media screen and (max-width: 640px) {
   .header {
-    background-image: url(/img/banner-mobile.jpg);
+    background-image: url(../img/banner-mobile.jpg);
   }
 
   .burger-button {

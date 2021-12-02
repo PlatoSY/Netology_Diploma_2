@@ -192,7 +192,6 @@ body {
   align-items: flex-end;
   width: calc(25% - 3px);
   height: 320px;
-  background-image: url(../img/trend1.jpg);
   background-color: darkgray;
   background-size: cover;
   background-position: center;
@@ -201,13 +200,16 @@ body {
   z-index: 0;
 }
 
-.trends:nth-child(2) {
+.trends-garden {
+  background-image: url(../img/trend1.jpg);
+}
+.trends-cheese {
   background-image: url(../img/trend2.jpg);
 }
-.trends:nth-child(3) {
+.trends-camp {
   background-image: url(../img/trend3.jpg);
 }
-.trends:nth-child(4) {
+.trends-vitamin {
   background-image: url(../img/trend4.jpg);
 }
 
@@ -322,7 +324,7 @@ body {
 }
 
 .article-title {
-  margin-bottom: 36px;
+  margin-bottom: 20px;
 }
 
 .article-title-link {
@@ -352,10 +354,10 @@ body {
   font-size: 15px;
   line-height: 22px;
   color: #0f0d0e;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
-.article-text:nth-child(n + 2) {
+.article-text-additional {
   margin-top: 15px;
 }
 
@@ -1269,7 +1271,7 @@ body {
 
 /* VISUALLY HIDDEN FOR TEXTREADER*/
 
-.displaynone {
+.display-none {
   width: 1px;
   height: 1px;
   clip: rect(1px, 1px, 1px, 1px);
